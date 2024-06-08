@@ -34,7 +34,36 @@ main {
 }
 
 .serving {
+  padding: 196px 0px 0px;
   text-align: center;
+}
+.serving .serving-top p {
+  font-size: 23px;
+  font-weight: 700px;
+}
+.serving .serving-top h2 {
+  color: #dcca87;
+  line-height: 82px;
+  margin-top: -30px;
+  font-size: 64px;
+}
+.serving .serving-middle p {
+  margin-top: -30px;
+  color: #aaaaaa;
+  font-size: 16px;
+}
+.serving .serving-buttom button {
+  margin: 10px;
+  padding: 8px 32px;
+  font-family: "Cormorant Upright", serif;
+}
+.serving .serving-buttom .serving-btn1 {
+  background-color: #dcca87;
+}
+.serving .serving-buttom .serving-btn2 {
+  border: 1px solid #dcca87;
+  color: #ffffff;
+  background-color: transparent;
 }
 
 nav {
