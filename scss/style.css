@@ -29,7 +29,12 @@ header {
 }
 
 main {
+  padding: 150px 0px 0px;
   margin: 0 60px;
+}
+
+.serving {
+  text-align: center;
 }
 
 nav {
