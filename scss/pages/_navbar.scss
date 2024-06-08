@@ -1,0 +1,23 @@
+nav {
+    margin-top: 20px;
+    img {
+        width: 100%;
+    }
+}
+.navbar-hero-box  {
+    display: grid;
+    grid-template-columns: auto ;
+    line-height: 0.1;
+    margin-top: -280px;
+    justify-content: center;
+    align-items: center;
+    .navbar___first-text  {
+        font-size: 56px;
+        color: #DCCA87;
+    }
+}
+.navbar___second-text {
+    font-weight: 550;
+    margin-top: -15px;
+    text-align: center;
+}
