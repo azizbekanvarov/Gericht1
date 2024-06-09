@@ -1,5 +1,6 @@
 .serving {
-  padding: 196px 0px 0px;
+  padding-top: 196px;
+  padding-bottom: 152px;
   text-align: center;
 
   .serving-top {
@@ -31,6 +32,14 @@
     }
 
     .serving-btn1 {
+      border: 1px solid #dcca87;
+      color: #ffffff;
+      background-color: transparent;
+    }
+
+    .serving-btn1:hover {
+      color: #222;
+      border: 1px solid #222;
       background-color: #dcca87;
     }
 
@@ -38,6 +47,105 @@
       border: 1px solid #dcca87;
       color: #ffffff;
       background-color: transparent;
+    }
+
+    .serving-btn2:hover {
+      color: #222;
+      border: 1px solid #222;
+      background-color: #dcca87;
+    }
+  }
+}
+
+.menu {
+  background-image: url(../../assets/imgs/Mask\ Group1.png);
+  width: 109%;
+  margin-left: -70px;
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(60%);
+
+  div {
+    padding: 100px 100px;
+    p {
+      font-size: 64px;
+    }
+  }
+}
+
+.reservations {
+  padding: 152px 0px;
+  .reservations-wrap {
+    border: 2px solid #dcca87;
+    text-align: center;
+    width: 1300px;
+    margin-left: 50px;
+    background-color: transparent;
+    padding-bottom: 130px;
+
+    .reservations-top {
+      p {
+        font-size: 23px;
+      }
+
+      h2 {
+        color: #dcca87;
+        font-size: 64px;
+      }
+    }
+
+    .reservations-buttom {
+      select {
+        background-color: transparent;
+        color: #aaaaaa;
+        margin: 20px;
+        width: 360px;
+        height: 40px;
+      }
+
+      button {
+        margin-top: 80px;
+        padding: 8px 32px;
+        font-family: "Cormorant Upright", serif;
+        border: 1px solid #dcca87;
+        color: #ffffff;
+        background-color: transparent;
+      }
+      button:hover {
+        color: #222;
+        border: 1px solid #222;
+        background-color: #dcca87;
+      }
+    }
+  }
+}
+
+.happy {
+  margin-bottom: 373px;
+  width: 109%;
+  margin-left: -70px;
+  height: 130vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(60%);
+  background-image: url(../../assets/imgs/Video.png);
+
+  div {
+    text-align: center;
+    padding: 350px 500px 0px;
+
+    h2 {
+      color: #dcca87;
+      font-size: 64px;
+      font-weight: 600;
+    }
+
+    p {
+      color: #fff;
+      font-size: 32px;
+      font-weight: 700;
     }
   }
 }
