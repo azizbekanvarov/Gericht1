@@ -1,5 +1,98 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+footer {
+  height: 700px;
+  background-image: url(../../assets/imgs/Mask\ Group3.png);
+}
+
+.footer-top {
+  width: 800px;
+  padding: 64px;
+  background-color: #0c0c0c;
+  border: 1px solid #dcca87;
+  box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.6980392157);
+  margin-left: 300px;
+  position: relative;
+  top: -180px;
+}
+.footer-top .footer-info {
+  text-align: center;
+}
+.footer-top .footer-info p {
+  font-size: 23px;
+  font-weight: 700;
+}
+.footer-top .footer-info h3 {
+  color: #dcca87;
+  font-size: 64px;
+  font-weight: 600;
+  margin-top: -20px;
+}
+.footer-top .footer-info h5 {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: -30px;
+}
+.footer-top .footer-email {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-left: 50px;
+}
+.footer-top .footer-email input {
+  background-color: transparent;
+  width: 500px;
+  height: 30px;
+  border: 1px solid #fff;
+}
+.footer-top .footer-email button {
+  padding: 8px 32px;
+  font-family: "Cormorant Upright", serif;
+  border: 1px solid #dcca87;
+  color: #ffffff;
+  background-color: transparent;
+}
+.footer-top .footer-email button:hover {
+  color: #222;
+  border: 1px solid #222;
+  background-color: #dcca87;
+}
+
+.footer-buttom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 126px;
+}
+.footer-buttom div {
+  text-align: center;
+}
+.footer-buttom div h3 {
+  color: #dcca87;
+  font-size: 64px;
+  text-transform: uppercase;
+  height: 50px;
+}
+.footer-buttom div h4 {
+  font-size: 32px;
+  font-weight: 400;
+}
+.footer-buttom div p {
+  font-family: sans-serif;
+  color: dimgray;
+}
+.footer-buttom div .footer-img img {
+  width: 30px;
+  margin: 20px;
+}
+.footer-buttom div .footer-paragraf {
+  color: #fff;
+}
+.footer-buttom .footer-buttom-middle {
+  margin-top: -60px;
+}
+
 header {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -35,97 +128,6 @@ main {
 
 .serving {
   text-align: center;
-}
-
-.our-history {
-  margin-top: 30px;
-}
-
-.our-history___first-box {
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.our-history___first-box p {
-  font-size: 9.5px;
-}
-.our-history___first-box img {
-  width: 30px;
-  margin-left: 205px;
-  margin-top: -3px;
-}
-.our-history___first-box b {
-  font-size: 32px;
-  margin-top: 10px;
-  letter-spacing: 1;
-  color: #DCCA87;
-}
-
-.our-history___second-box {
-  display: grid;
-  grid-template-columns: auto auto;
-  margin-top: 100px;
-  gap: 80px;
-}
-
-.our-history-first-box p {
-  width: 350px;
-  font-size: 12.6px;
-}
-.our-history-first-box img {
-  width: 350px;
-}
-
-.second-box__first-img {
-  width: 370px;
-  margin-top: 20px;
-}
-
-.second-box__second-img {
-  width: 300px;
-  margin-top: 20px;
-}
-
-.about-section {
-  margin-top: 70px;
-}
-
-.about-section___first-box {
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.about-section___first-box p {
-  font-size: 9.5px;
-}
-.about-section___first-box img {
-  width: 30px;
-  margin-left: 335px;
-  margin-top: -3px;
-}
-.about-section___first-box b {
-  font-size: 32px;
-  margin-top: 10px;
-  letter-spacing: 1;
-  color: #DCCA87;
-}
-.about-section___first-box .fisrt-box-img {
-  width: 700px;
-  height: 380px;
-  margin-top: 30px;
-  margin-left: 0;
-}
-
-.belinvin-section {
-  margin-top: 80px;
-}
-.belinvin-section img {
-  width: 112%;
-  margin-left: -60px;
 }
 
 nav {
